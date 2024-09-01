@@ -1,0 +1,26 @@
+Package: longHM
+Title: High-dimensional mediation analysis in longitudinal studies
+Version: 0.1.0
+Author: Yidan Cui [aut, cre]
+Maintainer: Yidan Cui <amber_cui@sjtu.edu.cn>
+Description: This is an effective and novel approach for high-dimensional 
+    mediation analysis in longitudinal data, incorporating variable selection 
+    and indirect effect assessment using both the linear mixed-effects model 
+    and the generalized estimating equation.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    geepack,
+    lmerTest,
+    stats
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

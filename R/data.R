@@ -1,0 +1,38 @@
+#' Example data for LMM method
+#'
+#' A simulated data containing 200 individuals and 500 mediators. The variables are as follows:
+#'
+#' @format Example data for demonstration, a data frame with 200 individuals and 500 mediators:
+#' \describe{
+#'   \item{Y}{a numeric matrix with 1 column}
+#'   \item{X}{a numeric vector}
+#'   \item{M}{a numeric matrix with 500 columns}
+#'   \item{COV}{a numeric matrix with 2 columns}
+#'   \item{id}{a numeric vector}
+#'   \item{wave}{a numeric vector}
+#'   \item{visit}{a numeric vector}
+#'   \item{e_ij}{a numeric vector}
+#'   \item{alpha}{a numeric vector}
+#'   \item{beta}{a numeric vector}
+#' }
+"example_lmm"
+
+
+#' Example data for GEE method
+#'
+#' A simulated data containing 200 individuals and 500 mediators. The variables are as follows:
+#'
+#' @format Example data for demonstration, a data frame with 200 individuals and 500 mediators:
+#' \describe{
+#'   \item{Y}{a numeric matrix with 1 column}
+#'   \item{X}{a numeric vector}
+#'   \item{M}{a numeric matrix with 500 columns}
+#'   \item{COV}{a numeric matrix with 2 columns}
+#'   \item{id}{a numeric vector}
+#'   \item{wave}{a numeric vector}
+#'   \item{visit}{a numeric vector}
+#'   \item{e_ij}{a numeric vector}
+#'   \item{alpha}{a numeric vector}
+#'   \item{beta}{a numeric vector}
+#' }
+"example_gee"
